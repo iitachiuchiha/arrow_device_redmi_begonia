@@ -11,7 +11,6 @@ allow untrusted_app proc_asound:dir r_dir_perms;
 allow untrusted_app proc_cm_mgr:dir r_dir_perms;
 allow untrusted_app proc_isp_p2:dir r_dir_perms;
 allow untrusted_app proc_thermal:dir r_dir_perms;
-allow untrusted_app proc_vmstat:file { getattr map watch watch_reads };
 allow untrusted_app hal_graphics_allocator_default_tmpfs:file r_file_perms;
 
 get_prop(untrusted_app, vendor_default_prop)
